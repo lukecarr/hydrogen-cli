@@ -28,6 +28,11 @@
     "type": "git",
     "url": "git+https://github.com/lukecarr/hydrogen-cli.git"
   },
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint \"src/**\"",
+    "build": "gulp build"
+  },
   "devDependencies": {
     "@babel/cli": "^7.10.3",
     "@babel/core": "^7.10.3",
