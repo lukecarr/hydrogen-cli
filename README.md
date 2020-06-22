@@ -7,7 +7,7 @@
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/lukecarr/hydrogen-cli?style=flat-square)](https://github.com/lukecarr/hydrogen-cli/blob/master/OSSMETADATA)
 [![Buy me a coffee!](https://img.shields.io/badge/buy%20me%20a-coffee-%23FF5E5B?style=flat-square&logo=ko-fi)](https://ko-fi.com/lukecarr)
 
-CLI for [Hydrogen LMS](https://github.com/lukecarr/hydrogen).
+CLI for **[Hydrogen LMS](https://github.com/lukecarr/hydrogen)**.
 
 ## Installation
 
