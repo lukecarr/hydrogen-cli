@@ -6,7 +6,7 @@ program.command("migrate", "Runs SQL migrations for Hydrogen.")
   .argument("<dsn>", "The PostgreSQL connection string to use.")
   .action(async ({ args, logger }) => {
     const pg = new Postgrator({
-      migrationDirectory: path.join(__dirname, "../../../node_modules/@hydrogen-lms/core/migrations"),
+      migrationDirectory: path.join(__dirname, "../../node_modules/@hydrogen-lms/core/migrations"),
       driver: "pg",
       connectionString: String(args.dsn)
     });
